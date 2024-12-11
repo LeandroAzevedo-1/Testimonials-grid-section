@@ -1,0 +1,97 @@
+.first-article {
+    grid-area: first-article;
+    background-color:  #7541c8;
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: calc(80%);
+}   
+.second-article {
+    grid-area: second-article;
+    background-color: #48556a; 
+    width: 230px;
+}
+.third-article {
+    grid-area: third-article;
+    background-color: #ffffff;
+    width: 230px;
+}
+.fourth-article {
+    grid-area: fourth-article;
+    background-color: #ffffff; 
+    width: 230px;
+}
+.fifth-article {
+    grid-area: fifth-article;
+    background-color: #19212e;
+}
+.container {
+    background-color: hsl(0, 0%, 81%); 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-grid {
+    display: grid;
+    grid: 
+        "first-article first-article second-article third-article" 
+        "fourth-article fifth-article fifth-article  third-article";
+    width: 1000px;
+    grid-gap: 10px;
+    margin: 10p;
+} 
+
+.first-article, .second-article, .third-article, .fourth-article , .fifth-article{
+    padding: 20px;
+    border-radius: 10px;
+} 
+.container-grid .profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+} 
+.container-grid img {
+    border-radius: 50%;
+    border: 2px solid #ecf2f8;
+    width: 40px;
+} 
+.first-article-name-author,
+.second-article-name-author,
+.fifth-article-name-author{
+    color: #ecf2f8;
+    font-weight: 500;
+}
+.third-article-name-author, 
+.fourth-article-name-author {
+    color:  hsl(219, 29%, 14%);
+    font-weight: 500;
+}
+.first-article-academic-training,
+.second-article-academic-training,
+.fifth-article-academic-training {
+    color: #cfcfcf;
+    font-size: 13px;
+}
+.first-article-descrition, .second-article-descrition,
+.fifth-article-descrition {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.third-article-academic-training, .fourth-article-academic-training  {
+    color: hsl(217, 14%, 42%);
+    font-size: 13px;
+}
+.third-article-descrition, .fourth-article-descrition {
+    color:  hsl(219, 29%, 14%);
+    margin-bottom: 10px;
+}
+.first-article-text, .second-article-text, .fifth-article-text {
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+}
+.fourth-article-text, .third-article-text{
+    color:  hsl(217, 19%, 35%);
+    font-size: 13px;
+}
+  

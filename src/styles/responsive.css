@@ -1,0 +1,27 @@
+@media (max-width: 800px) {
+    .first-article, .second-article, .third-article, .fourth-article , .fifth-article{
+        padding: 10px;
+        
+    }
+}
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+    .container-grid {
+        display: grid;
+        grid: 
+            "first-article " 
+            "second-article"
+            "fourth-article" 
+            "fifth-article"  
+            "third-article";
+        margin: 30px auto;
+        width: 90%;
+        line-height: 20px;
+        grid-gap: 15px
+    } 
+    .second-article, .third-article, .fourth-article{
+        width: 100%
+    } 
+}
