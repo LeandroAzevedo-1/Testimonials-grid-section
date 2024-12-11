@@ -38,4 +38,4 @@ A cada desafio, novos conhecimentos são adquiridos e conceitos importantes são
 <img src="./src/design/desktop-preview.jpg">
 <img src="./src/design/mobile-design.jpg">
 
-Acesse a página online: [Live Demo](https://leandroazevedo-1.github.io/Testimonials-grid-section/).
+Acesse a página online: [Live Demo](https://leandroazevedo-1.github.io/testimonials-grid-section/).
